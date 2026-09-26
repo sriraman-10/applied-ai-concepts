@@ -39,7 +39,7 @@ def observe() -> str:
 def think_with_gemini(client, state: str) -> dict:
     """A stateless generate_content call: no chat/session or past messages."""
     response = client.models.generate_content(
-        model=os.environ.get("GEMINI_MODEL", "gemini-2.5-flash"),
+        model=os.environ.get("GEMINI_MODEL", "gemini-3.8-flash"),
         contents="Current filesystem snapshot:\n" + state,
         config={
             "system_instruction": (ROOT / "prompt.md").read_text(encoding="utf-8"),

@@ -1,6 +1,6 @@
 # approach_name: Dynamic Programming
-# time_complexity: O(N^2)
-# space_complexity: O(N)
+# time_complexity: O(n^2)
+# space_complexity: O(n)
 
 def length_of_lis(nums: list[int]) -> int:
     if not nums:
