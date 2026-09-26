@@ -93,7 +93,7 @@ printing private chain-of-thought.
 Use Python 3.10 or newer:
 
 ```bash
-cd /Users/sriraman10/Documents/blog/applied-ai-concepts/react-gemini
+cd react-gemini
 python3 -m venv .venv
 source .venv/bin/activate
 python -m pip install --upgrade -r requirements.txt

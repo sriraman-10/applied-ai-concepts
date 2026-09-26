@@ -57,7 +57,7 @@ react/
 Use a project-local virtual environment. This keeps the OpenAI and Agents SDK versions isolated from unrelated projects.
 
 ```bash
-cd /Users/sriraman10/Documents/blog/applied-ai-concepts/react
+cd react
 python3 -m venv .venv
 source .venv/bin/activate
 python -m pip install --upgrade pip

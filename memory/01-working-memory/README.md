@@ -95,7 +95,7 @@ Production frameworks can store session history and compact context automaticall
 Use Python 3.10 or newer and a project-local environment:
 
 ```bash
-cd /Users/sriraman10/Documents/blog/applied-ai-concepts/memory/01-working-memory
+cd memory/01-working-memory
 python3 -m venv .venv
 source .venv/bin/activate
 python -m pip install -r requirements.txt

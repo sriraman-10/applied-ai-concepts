@@ -156,7 +156,7 @@ Embeddings and semantic search add cost, latency, ranking behavior, and operatio
 Use Python 3.10 or newer and a project-local virtual environment:
 
 ```bash
-cd /Users/sriraman10/Documents/blog/applied-ai-concepts/memory/02-kv-memory
+cd memory/02-kv-memory
 python3 -m venv .venv
 source .venv/bin/activate
 python -m pip install -r requirements.txt
