@@ -1,0 +1,8 @@
+.env
+.venv/
+postgres-data/
+.data/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage

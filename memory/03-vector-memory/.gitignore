@@ -1,0 +1,8 @@
+.env
+.venv/
+.data/
+chroma.sqlite3
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
