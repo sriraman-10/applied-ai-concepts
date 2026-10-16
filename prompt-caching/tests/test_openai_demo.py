@@ -3,7 +3,7 @@ from pathlib import Path
 import unittest
 from unittest.mock import Mock
 
-SPEC = importlib.util.spec_from_file_location("prompt_caching_demo", Path(__file__).resolve().parents[1] / "main.py")
+SPEC = importlib.util.spec_from_file_location("prompt_caching_demo", Path(__file__).resolve().parents[1] / "openai_demo.py")
 module = importlib.util.module_from_spec(SPEC)
 import sys
 sys.modules[SPEC.name] = module
